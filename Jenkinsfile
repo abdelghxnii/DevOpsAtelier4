@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = "abdelghxnii/jenkinsdocker"
         registryCredential= 'dockerhub'
-        dockerImage = 'openjdk:8'
+        dockerImage = ''
     }
     agent any
     stages {
@@ -14,7 +14,7 @@ pipeline {
         stage('Building image'){
             steps{
                 script{
-                    dockerImage = docker.build registry + ":$BUILD NUMBER"
+                    dockerImage = docker.build registry + ":$BUILD_NUMBER"
                 }
             }
         }
