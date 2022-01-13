@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.113" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.AppTest" time="0.214" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/atxhiri/Desktop/DevOpsAtelier4/target/surefire/surefirebooter10823494738726073304.jar /home/atxhiri/Desktop/DevOpsAtelier4/target/surefire 2022-01-13T12-16-35_753-jvmRun1 surefire8762119979428894272tmp surefire_09012911729592448199tmp"/>
+    <property name="sun.java.command" value="/home/atxhiri/Desktop/DevOpsAtelier4/target/surefire/surefirebooter8532418908564464985.jar /home/atxhiri/Desktop/DevOpsAtelier4/target/surefire 2022-01-13T12-28-30_028-jvmRun1 surefire8794329806885069525tmp surefire_014127653202254742485tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/atxhiri/Desktop/DevOpsAtelier4/target/test-classes:/home/atxhiri/Desktop/DevOpsAtelier4/target/classes:/home/atxhiri/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/atxhiri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/atxhiri/Desktop/DevOpsAtelier4/target/surefire/surefirebooter10823494738726073304.jar"/>
+    <property name="surefire.real.class.path" value="/home/atxhiri/Desktop/DevOpsAtelier4/target/surefire/surefirebooter8532418908564464985.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+8-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="atxhiri"/>
