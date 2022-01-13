@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:8
 EXPOSE 8080
-ADD target/name_jar_genere.jar name_jar_genere.jar
-ENTRYPOINT ["java","-jar","/name_jar_genere.jar"]
+ADD target/name_jar_généré.jar name_jar_généré.jar
+ENTRYPOINT ["java","-jar","/name_jar_généré.jar"]
