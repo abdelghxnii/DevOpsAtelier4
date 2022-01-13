@@ -1,19 +1,28 @@
 pipeline {
+    environment {
+        registry = "abdelghxnii/jenkinsdocker"
+        registryCredential= 'dockerhub'
+        dockerImage = ''
+    }
     agent any
     stages {
-        stage('Clean') {
-            steps {
-                sh 'mvn clean'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
-        stage('Package') {
-            steps {
+        stage('Build'){
+            steps{
                 sh 'mvn package'
+            }
+        }
+        stage('Building image'){
+            steps{
+                script{
+                    dockerImage = docker.build registry + ":$BUILD NUMBER"
+                }
+            }
+        }
+        stage('Deploy image'){
+            script{
+                docker.withRegistry('', registryCredential){
+                    dockerImage.push()
+                }
             }
         }
     }
